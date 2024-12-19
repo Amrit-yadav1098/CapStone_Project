@@ -1,10 +1,10 @@
 .contact-section {
-  background: #fff;
+  background: #FFFFFF;
   display: flex;
   align-items: flex-start;
   gap: 40px 48px;
   overflow: hidden;
-  color: #000;
+  color: #000000;
   font-weight: 400;
   justify-content: flex-start;
   flex-wrap: wrap;
