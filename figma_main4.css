@@ -1,0 +1,35 @@
+.contact-section {
+  background: #fff;
+  display: flex;
+  align-items: flex-start;
+  gap: 40px 48px;
+  overflow: hidden;
+  color: #000;
+  font-weight: 400;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 48px 0;
+  }
+
+.contact-heading {
+  min-width: 240px;
+  letter-spacing: -0.28px;
+  flex: 1;
+  padding: 2px 0;
+  font: 28px/1, sans-serif;
+  }
+
+.contact-description {
+  width: 640px;
+  font: 17px/28px Archivo, sans-serif;
+  }
+
+@media (max-width: 991px) {
+  .contact-heading {
+    max-width: 100%;
+  }
+  
+  .contact-description {
+    max-width: 100%;
+  }
+}

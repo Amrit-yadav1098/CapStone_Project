@@ -1,0 +1,55 @@
+.footer {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 1);
+  justify-content: start;
+  padding: 96px 0 24px;
+  }
+
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 40px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  align-self: stretch;
+  min-width: 240px;
+  gap: 32px;
+  letter-spacing: -0.28px;
+  margin: auto 0;
+  font: 400 28px/1 DotGothic16, sans-serif;
+}
+
+.contact-btn {
+  align-self: stretch;
+  white-space: nowrap;
+  margin: auto 0;
+  padding: 12px 24px;
+  font: 500 20px/1.2 Archivo Narrow, -apple-system, Roboto, Helvetica, sans-serif;
+  border: 1px solid rgba(0, 0, 0, 1);
+  cursor: pointer;
+  background: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:focus-visible {
+  outline: 2px solid #000;
+  outline-offset: 2px;
+}
+
+@media (max-width: 991px) {
+  .footer-wrapper {
+    max-width: 100%;
+  }
+
+  .contact-btn {
+    white-space: initial;
+    padding: 0 20px;
+  }
+}

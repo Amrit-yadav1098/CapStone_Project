@@ -1,0 +1,101 @@
+showcase-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px;
+  }
+.showcase-carousel {
+  background-color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 48px 0;
+  }
+.showcase-container {
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  }
+.showcase-heading {
+  color: #000;
+  letter-spacing: -0.34px;
+  font: 400 34px/1 DotGothic16, sans-serif;
+  }
+.projects-grid {
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+  align-items: center;
+  gap: 40px 48px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  }
+.project-card {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+  }
+.project-image {
+  aspect-ratio: 0.99;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  }
+.project-content {
+  display: flex;
+  margin-top: 24px;
+  width: 100%;
+  flex-direction: column;
+  color: #000;
+  font-weight: 400;
+  justify-content: flex-start;
+  }
+.project-title {
+  font: 20px/1.2 DotGothic16, sans-serif;
+  }
+.project-description {
+  margin-top: 12px;
+  font: 15px/1 Archivo, sans-serif;
+  }
+.view-project-btn {
+  align-self: flex-start;
+  background-color: rgb(36, 25, 243);
+  margin-top: 24px;
+  color: #fff;
+  padding: 8px 16px;
+  font: 500 15px/1 "Archivo Narrow", -apple-system, Roboto, Helvetica, sans-serif;
+  border: none;
+  cursor: pointer;
+  }
+.bottom-border {
+  aspect-ratio: 1000;
+  object-fit: contain;
+  object-position: center;
+  width: 1522px;
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+  left: -48px;
+  right: -48px;
+  bottom: -1px;
+  height: 0;
+  border-bottom: 2px solid black;
+  }
+@media (max-width: 991px) {
+  .showcase-section {
+    padding-left: 20px;
+  }
+  .showcase-carousel,
+  .showcase-container,
+  .showcase-heading,
+  .projects-grid {
+    max-width: 100%;
+  }
+}
